@@ -1,0 +1,19 @@
+{
+  "name": "04_login_otp_with_ttl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.6",
+    "express": "^4.21.2",
+    "ioredis": "^5.4.1",
+    "twilio": "^6.1.2"
+  }
+}
